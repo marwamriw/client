@@ -20,7 +20,7 @@ const Register = () => {
     console.log("errors", errors);
     useEffect(() => {
       if(isAuth) navigate('/')
-  }, [isAuth])
+  }, [isAuth, navigate])
 
   return (
     <div className='formm'>
